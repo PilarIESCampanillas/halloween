@@ -1,0 +1,40 @@
+/************* HOJA DE ESTILO DEL EJERCICIO DE HALLOWEEN *********/
+/************* 2º SMR - CURSO 2021/2022 **************************/
+/************* AUTORA: PILAR GONZÁLEZ AUGUSTO *********************/
+
+@font-face {
+    font-family: creepy;
+    src: url("../fonts/Spiderfingers.ttf");
+}
+body {background-color:black;
+      font-family: creepy;}
+
+#container {position:relative; /* podrá moverse de sitio el container */
+            width:1920px;
+            height:1106px;
+            background-image: url("../images/fondo.jpg");
+            margin:100px auto;
+            color:white;
+            
+            }
+
+#p1 {font-size:3em;
+     padding:20px 0 0 80px;
+     text-shadow:5px 5px 5px red;}
+
+#p2 {font-size:2em;
+     padding:20px 0 0 700px;
+     text-shadow:5px 5px 5px red;}
+
+#torre {position:absolute;
+        left:1150px;
+        top:180px;
+        /* border: 1px solid white; luego lo quito */
+        width:50px;
+        height:80px;
+        }
+#bats {position:absolute;
+       left:1300px;
+       top:50px;
+       width:360px;
+       visibility:hidden;}
